@@ -1,3 +1,17 @@
 body{ 
-    
+    background-color: (#0C3B18);
+}
+.main{
+        background-color: (#baeef0);
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+        
+
+}
+.pic{
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+
 }
