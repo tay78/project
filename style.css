@@ -14,7 +14,7 @@ align-items: column;
   font-family: "Sour Gummy", sans-serif;
   background:  #8d1a05; 
       width: 200vw;
-      height: 150vh;
+      height: 160vh;
       display: flex;
 flex-direction: column;
 
@@ -55,4 +55,9 @@ p{
     font-size: 2vw;
           display: flex;
 justify-content: center;
+}
+   
+.shaunat{width: 40px;position: sticky; top: 0;  z-index: 1000; }
+.shaunat:hover {
+  cursor: pointer;
 }
