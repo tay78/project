@@ -1,17 +1,48 @@
-body{ 
-    background-color: (#0C3B18);
-}
-.main{
-        background-color: (#baeef0);
-        display: flex;
-        justify-content: center;
-        margin: 10%;
-        
+body{
+        margin: 5vw;
+  font-family: "Sour Gummy", sans-serif;
+  background:  #0e4411; 
+      width: 100vw;
+      height: 110vh;
+      display: flex;
+justify-content: center;
+align-items: center;
 
+}
+
+.main{      
+    display: flex;
+justify-content: center;
+flex-direction: column;
 }
 .pic{
-        display: flex;
-        justify-content: center;
-        margin: 10%;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+h1{
+        font-family: "Shantell Sans", cursive;
 
+    color:white;
+    font-size: 3vw;
+          display: flex;
+justify-content: center;
+align-items: center;
+}
+h2{
+
+    color:white;
+    font-size: 1vw;
+          display: flex;
+justify-content: center;
+align-items: center;
+}
+p{
+
+    color:white;
+    font-size: 1vw;
+          display: flex;
+justify-content: center;
+align-items: center;
 }
