@@ -1,9 +1,11 @@
 body{
         margin: 5vw;
-  font-family: "Sour Gummy", sans-serif;
+  font-family: "IM Fell Double Pica", serif;
+  font-weight: 400;
+  font-style: normal;
   background:  #0e4411; 
-      width: 100vw;
-      height: 110vh;
+      width: 90vw;
+      height: 100vh;
       display: flex;
 justify-content: center;
 align-items: column;
@@ -35,6 +37,9 @@ align-items: center;
 flex-direction: left;
 }
 h1{
+      font-family: "Ribeye", serif;
+  font-weight: 400;
+  font-style: normal;
     color:white;
     font-size: 3vw;
           display: flex;
@@ -55,6 +60,7 @@ p{
     font-size: 2vw;
           display: flex;
 justify-content: center;
+text-align: center;
 }
    
 .shaunat{width: 40px;position: sticky; top: 0;  z-index: 1000; }
