@@ -1,9 +1,9 @@
 body{
         margin: 5vw;
-  font-family: "IM Fell Double Pica", serif;
   font-weight: 400;
   font-style: normal;
-  background:  #0e4411; 
+  background:  #a0b1a1;
+         font-family: "Ribeye", serif;
       width: 90vw;
       height: 100vh;
       display: flex;
@@ -14,7 +14,7 @@ align-items: column;
 .top{
         margin: 5vw;
   font-family: "Sour Gummy", sans-serif;
-  background:  #8d1a05; 
+  background:  #b3a4a1; 
       width: 200vw;
       height: 160vh;
       display: flex;
@@ -23,6 +23,10 @@ flex-direction: column;
 }
 img{
         margin:2vw;
+        background:#b3a4a1;
+         border-radius: 10%;
+         height: 20vh;
+          width: 20vw;
 }
 .main{      
      margin: 5vw;   
@@ -31,24 +35,39 @@ justify-content: center;
 flex-direction: column;
 }
 .pic{
+    background:#94a596;
     display: flex;
+    border-radius: 10%;
 justify-content: center;
+ box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
 align-items: center;
+flex-direction: left;
+margin: 5vw;
+}
+.pic2{
+    background:#94a596;
+    display: flex;
+    border-radius: 10%;
+justify-content: center;
+ box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+align-items: center;
+margin: 5vw;
 flex-direction: left;
 }
 h1{
       font-family: "Ribeye", serif;
   font-weight: 400;
+ 
   font-style: normal;
-    color:white;
+    color:black;
     font-size: 3vw;
           display: flex;
 justify-content: center;
 align-items: center;
 }
 h2{
-
-    color:white;
+ margin: 2vw;
+    color:black;
     font-size: 2vw;
           display: flex;
 justify-content: center;
@@ -56,14 +75,18 @@ align-items: center;
 }
 p{
 
-    color:white;
+    color:black;
     font-size: 2vw;
           display: flex;
 justify-content: center;
 text-align: center;
 }
    
-.shaunat{width: 40px;position: sticky; top: 0;  z-index: 1000; }
+.shaunat{width: 40px;position: sticky; top: 0;  z-index: 1000; 
+   height: 5vh;
+          width: 5vw;
+        }
 .shaunat:hover {
   cursor: pointer;
+        
 }
